@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    <TextView
+        android:id="@+id/storetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to Storage!!!"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numlabel"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="ID" />
+
+    
+    <TextView
+        android:id="@+id/namelabel"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="NAME" />
+
+   <!--  <EditText
+            android:id="@+id/name"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName" /> -->
+
+        <TextView
+            android:id="@+id/agelabel"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="AGE" />
+
+        <!-- <EditText
+            android:id="@+id/age"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="number" />-->
+     
+        <RadioGroup
+            android:id="@+id/Sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal">      
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Female" />
+      
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bloodgrplabel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="BLOOD GRP" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SUBMIT" />   
+</LinearLayout>

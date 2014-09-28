@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rettext"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/rettext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to Data Retrieval!!!"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+   
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Press to Speak ID" />
+
+</LinearLayout>
